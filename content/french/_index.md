@@ -1,19 +1,21 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Equi-nous-sommes"
+  content: "La rencontre de soi grâce au cheval"
+  image: "/images/banner.jpeg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Découvrire"
+    link: "./phylosophy"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Séance individuelle"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Avec le cheval comme partenaire, 
+    je vous propose la découverte de soi, de ses propres émotions et celles de l’autre lors d’une session de médiation
+     animale. Avec un accompagnement personnalisé, passez un moment en pleine nature pour voir, écouter et ressentir au travers de l’éveil de vos sens."
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
@@ -22,9 +24,9 @@ features:
       - "SEO-optimized for better search engine rankings"
       - "**Open-source and free** for personal and commercial use"
     button:
-      enable: false
+      enable: true
       label: "Get Started Now"
-      link: "#"
+      link: "http://hh.com"
 
   - title: "Discover the Key Features Of Hugo"
     image: "/images/service-2.png"
