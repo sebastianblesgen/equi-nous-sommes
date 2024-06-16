@@ -1,8 +1,8 @@
 ---
-title: "Présentation et phylosophie"
-meta_title: "Présentation et phylosophie"
-description: "Présentation de Madeline Blesgen, Equi-nous-sommes et la phylosophie"
-image: "/images/avatar.png"
+title: "Présentation et philosophie"
+meta_title: "Présentation et philosophie"
+description: "Présentation de Madeline Blesgen, Equi-nous-sommes et la philosophie"
+image: "/images/illustration/made.jpeg"
 draft: false
 ---
 

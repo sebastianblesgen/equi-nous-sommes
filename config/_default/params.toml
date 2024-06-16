@@ -1,13 +1,13 @@
 #################### default parameters ################################
 # favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
-favicon = "images/favicon.png"
+favicon = "images/equi-banner.jpeg"
 # logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
-logo = "images/equi-banner.jpeg"
-logo_darkmode = "images/logo-darkmode.png"
+logo = "images/Equi-nous-sommes.png"
+logo_darkmode = "images/Equi-nous-sommes-dark.png"
 # use `px` or `x` with logo_width, example: "100px".
 # Note: logo_width is not work with .svg file
-logo_width = "160px"
-logo_height = "32px"
+logo_width = "250px"
+logo_height = "64px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
@@ -44,7 +44,7 @@ link = "contact"
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
@@ -62,7 +62,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Equitation", "Communication"]
+keywords = ["Equitation", "Communication", "Médiation animale", "animal", "cheval"]
 description = "La rencontre de soi grâce au cheval"
 author = "Sebastian Blesgen"
 image = "images/og-image.png"

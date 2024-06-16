@@ -1,4 +1,5 @@
 const fs = require("fs");
+const defaultTheme = require("tailwindcss/defaultTheme");
 const path = require("path");
 const themePath = path.join(__dirname, "data/theme.json");
 const themeRead = fs.readFileSync(themePath, "utf8");
@@ -26,7 +27,7 @@ if (theme.fonts.font_family.secondary) {
   fontSecondaryType = theme.fonts.font_family.secondary_type;
 }
 
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 module.exports = {
   content: ["./hugo_stats.json"],
   safelist: [{ pattern: /^swiper-/ }],
@@ -82,6 +83,7 @@ module.exports = {
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+        sans: [fontPrimary, fontPrimaryType, ...defaultTheme.fontFamily.sans]
       },
     },
   },

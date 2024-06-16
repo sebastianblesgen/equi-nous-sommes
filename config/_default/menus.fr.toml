@@ -7,46 +7,27 @@ pageRef = "/"
 weight = 1
 
 [[main]]
-name = "Phylosophie"
-pageRef = "/phylosophy"
+name = "Philosophie"
+pageRef = "/philosophy"
 weight = 2
+
+[[main]]
+name = "Formules"
+pageRef = "/prices"
+weight = 3
 
 [[main]]
 name = "Contact"
 pageRef = "/contact"
-weight = 3
-
-[[main]]
 weight = 4
-name = "Plus..."
-
-[[main]]
-parent = "Plus..."
-name = "Blog"
-pageRef = "/blog"
-
-[[main]]
-parent = "Plus..."
-name = "Authors"
-pageRef = "/authors"
-
-[[main]]
-parent = "Plus..."
-name = "Categories"
-pageRef = "/categories"
 
 # footer menu
-[[footer]]
-name = "About"
-pageRef = "/about"
-weight = 1
-
-[[footer]]
-name = "Elements"
-pageRef = "/elements"
-weight = 2
-
-[[footer]]
-name = "Privacy Policy"
-pageRef = "/privacy-policy"
-weight = 3
+#[[footer]]
+#name = "About"
+#pageRef = "/about"
+#weight = 1
+#
+#[[footer]]
+#name = "Privacy Policy"
+#pageRef = "/privacy-policy"
+#weight = 3

@@ -1,0 +1,25 @@
+<a href="{{ .RelPermalink }}">
+  <div
+    class="bg-theme-light dark:bg-darkmode-theme-light rounded p-8 text-center shadow-md hover:shadow-lg decoration-primary">
+    {{ $image := .Params.image }}
+    {{ if $image }}
+      {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mx-auto mb-6 rounded" "size" "120x120") }}
+    {{ end }}
+    <h4 class="mb-3">
+      {{ .Title }}
+    </h4>
+    <div class="mb-4 text-justify">
+      {{ .Summary }}
+    </div>
+
+    <div class="bg-slate-50/50 p-3">
+      <div class="float-end text-end">
+        <span>{{ .Params.Price }}</span>
+      </div>
+      <div class="text-left">
+        <span class="">{{ .Params.Duration }}</span>
+      </div>
+    </div>
+
+  </div>
+</a>

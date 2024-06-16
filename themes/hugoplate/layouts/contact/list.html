@@ -1,19 +1,13 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
-
-
   <section class="section-sm">
     <div class="container">
       <div class="row">
-        <div class="lg:offset-1 lg:col-5">
-        {{ .Content }}
-        </div>
-      </div>
-      <div class="row">
         <div class="md:col-6 lg:offset-1 lg:col-5">
-          <div class="max-w-full overflow-hidden w[400px] h[400px]">
-            <div id="my-map-canvas" class="h-full w-full max-w-full">
-              <iframe style="height:100%;width:100%;border:0;" frameborder="0"
+          {{ .Content }}
+          <div class="max-w-full overflow-hidden" style="height:400px">
+            <div id="my-map-canvas" class="w-full max-w-full h-full">
+              <iframe style="border:0;" frameborder="0" class="h-full w-full"
                       src="https://www.google.com/maps/embed/v1/place?q=Route+de+Hevremont+9+4834+GOE&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
               </iframe>
             </div>
